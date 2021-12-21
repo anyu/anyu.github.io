@@ -7,6 +7,7 @@ enableRobotsTXT = true
 enableEmoji = true
 theme = "even"
 enableGitInfo = false # use git commit log to generate lastmod record
+publishDir = "docs"
 
 # Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
 pygmentsOptions = "linenos=table"
@@ -34,8 +35,13 @@ copyright = ""            # default: author.name ↓
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "About"
   weight = 20
+  identifier = "about"
+  url = "/about/"  
+[[menu.main]]
+  name = "Archives"
+  weight = 30
   identifier = "archives"
   url = "/post/"
 [[menu.main]]
